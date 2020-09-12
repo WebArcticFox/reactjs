@@ -12,7 +12,7 @@ const Profile = () => {
                 <div>
                     My post
                     <div>Новый пост</div>
-
+ 1111
                 </div>
             </div>
         </article>
