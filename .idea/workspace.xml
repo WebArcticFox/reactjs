@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32a505ae-b81b-4649-bbb4-e7b2003ce934" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="32a505ae-b81b-4649-bbb4-e7b2003ce934" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599897525377</updated>
       <workItem from="1599897527758" duration="5698000" />
-      <workItem from="1599908737089" duration="2847000" />
+      <workItem from="1599908737089" duration="3070000" />
     </task>
     <servers />
   </component>
