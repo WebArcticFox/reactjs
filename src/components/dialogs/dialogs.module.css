@@ -1,0 +1,6 @@
+.content {
+    grid-area: c;
+    background-color: #fff;
+    border: 1px solid #999;
+    margin: 10px 0 0 10px;
+}
