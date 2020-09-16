@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fd602dc-d616-40d9-a7a0-fe6d4594c734" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/dialogs/dialogs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialogs/dialogs.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/music/music.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/music/music.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/news/news.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/news/news.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/settings/settings.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/settings/settings.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f82ff6a7ffb042b96e3511438cdbbe728db0ae6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/profile.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/profile/myposts/post" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,17 +77,19 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/profile/myposts/post" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/content" />
       <recent name="$PROJECT_DIR$/src/components/nav" />
       <recent name="$PROJECT_DIR$/src/components/footer" />
       <recent name="$PROJECT_DIR$/src/base/header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/profile/myposts/post" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -113,7 +131,8 @@
       <updated>1599897525377</updated>
       <workItem from="1599897527758" duration="5698000" />
       <workItem from="1599908737089" duration="3070000" />
-      <workItem from="1600256945728" duration="6250000" />
+      <workItem from="1600256945728" duration="7952000" />
+      <workItem from="1600280792949" duration="1448000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 14">
       <created>1600262610523</created>
@@ -161,6 +180,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1599906675639" />
+    <state x="461" y="330" key="NewPhpFileDialog" timestamp="1600281196975">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="461" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1600281196975" />
     <state x="149" y="39" key="SettingsEditor" timestamp="1600262472593">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

@@ -2,14 +2,17 @@
     grid-area: n;
     background-color: #999;
     margin: 10px 0;
+    padding: 20px;
 }
 .nav a {
     display: block;
     margin: 0 0 10px 0;
 }
-.item {
+a.item {
     color: #fff;
+    text-decoration: none;
 }
-.item.active {
+
+a.item.active {
     color: gold;
 }
