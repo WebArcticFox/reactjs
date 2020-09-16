@@ -13,36 +13,3 @@
   grid-template-columns: 2fr 10fr 2fr;
 }
 
-.app-wrapper img {
-  max-width: 100%;
-  display: block;
-}
-
-.app-wrapper header {
-  grid-area: h;
-  background-color: #eee;
-  padding: 10px;
-}
-.app-wrapper header img {
-  max-height: 90%;
-}
-.app-wrapper nav {
-  grid-area: n;
-  background-color: #999;
-  margin: 10px 0;
-}
-.app-wrapper nav a {
-  display: block;
-  margin: 0 0 10px 0;
-}
-.content--page {
-  grid-area: c;
-  background-color: #fff;
-  border: 1px solid #999;
-  margin: 10px 0 0 10px;
-}
-.app-wrapper footer {
-  grid-area: f;
-  margin: 10px 0;
-  background-color: #eee;
-}

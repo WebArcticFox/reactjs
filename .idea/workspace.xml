@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fd602dc-d616-40d9-a7a0-fe6d4594c734" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/nav/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/nav/nav.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profile/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profile/profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/content/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content/profile.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +26,13 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -40,6 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -49,11 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/content" />
-      <recent name="$PROJECT_DIR$/media/img" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/components/nav" />
+      <recent name="$PROJECT_DIR$/src/components/footer" />
+      <recent name="$PROJECT_DIR$/src/base/header" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -88,13 +108,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="32a505ae-b81b-4649-bbb4-e7b2003ce934" name="Default Changelist" comment="" />
+      <changelist id="2fd602dc-d616-40d9-a7a0-fe6d4594c734" name="Default Changelist" comment="" />
       <created>1599897525377</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599897525377</updated>
       <workItem from="1599897527758" duration="5698000" />
       <workItem from="1599908737089" duration="3070000" />
+      <workItem from="1600256945728" duration="2706000" />
     </task>
     <servers />
   </component>
@@ -126,10 +147,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1599906675639" />
-    <state x="149" y="39" key="SettingsEditor" timestamp="1599908709546">
+    <state x="149" y="39" key="SettingsEditor" timestamp="1600262472593">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1599908709546" />
+    <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1600262472593" />
     <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1599933994575">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
