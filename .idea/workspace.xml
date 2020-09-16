@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fd602dc-d616-40d9-a7a0-fe6d4594c734" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav/nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav/nav.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/profile/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/profile/profile.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f82ff6a7ffb042b96e3511438cdbbe728db0ae6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profile/myposts/myposts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profile/myposts/myposts.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profile/myposts/post/mypost.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/profile/myposts/post/mypost.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base/nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/profile.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +23,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="reactjs" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,7 +58,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/profile/myposts/post" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -68,6 +70,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/profile/myposts/post" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/content" />
@@ -115,12 +120,24 @@
       <updated>1599897525377</updated>
       <workItem from="1599897527758" duration="5698000" />
       <workItem from="1599908737089" duration="3070000" />
-      <workItem from="1600256945728" duration="2706000" />
+      <workItem from="1600256945728" duration="4943000" />
     </task>
+    <task id="LOCAL-00001" summary="lesson 14">
+      <created>1600262610523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600262610523</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 14" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599906435799">
@@ -131,6 +148,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1599927664888" />
+    <state x="127" y="2" key="CommitChangelistDialog2" timestamp="1600262610130">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="127" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1600262610130" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1599906675639">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

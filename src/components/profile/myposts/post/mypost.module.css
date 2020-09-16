@@ -1,0 +1,9 @@
+.item {
+    color: gold;
+}
+.item img {
+    border-radius: 100px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
