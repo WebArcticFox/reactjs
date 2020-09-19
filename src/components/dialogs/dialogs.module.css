@@ -1,0 +1,27 @@
+.content {
+    display: grid;
+    grid-template-areas:
+            "d m";
+    grid-template-columns: 3fr 7fr;
+}
+.dialogs {
+    grid-area: d;
+}
+.messages {
+    grid-area: m;
+}
+.item {
+    padding: 15px;
+    margin: 10px;
+    display: block;
+    background-color: #eee;
+}
+.message {
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.item.active {
+    background-color: gold;
+}

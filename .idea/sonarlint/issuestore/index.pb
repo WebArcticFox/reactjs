@@ -36,8 +36,6 @@ R
 "src/components/dialogs/dialogs.jsx,e/8/e8f1119f9a22c9d0f9d8eab24684ce8c01aefbd6
 ^
 .src/components/profile/myposts/post/mypost.jsx,6/f/6f99cd86548becf2a6a7db89a6cc44a5079b5b3f
-B
-src/App.module.css,4/8/48b8bbfab000d378bf7f1404bca1affc48584f02
 I
 src/components/nav/nav.js,7/e/7ec09365e21f0d741f2f20e58415c7de091ca5e1
 Q
@@ -45,3 +43,11 @@ Q
 :
 
 src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
+L
+src/components/news/news.jsx,0/0/0095a8728e647ac69dbf6b010498e0af5fa819bb
+N
+src/components/music/music.jsx,6/0/60e01d70e12446d53b2f26733c4cd32751ea0437
+T
+$src/components/settings/settings.jsx,1/4/1484b99032a95d7f175bd997e8872adb9f736746
+;
+src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
