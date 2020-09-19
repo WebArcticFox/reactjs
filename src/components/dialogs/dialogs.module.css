@@ -9,19 +9,33 @@
 }
 .messages {
     grid-area: m;
+    display: flex;
+    flex-wrap: wrap;
 }
 .item {
-    padding: 15px;
+    padding: 10px;
     margin: 10px;
     display: block;
     background-color: #eee;
+    text-decoration: none;
+    color: #333;
 }
 .message {
-    padding: 15px;
+    padding: 10px;
     margin: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    display: flex;
 }
 .item.active {
     background-color: gold;
+}
+.you_message {
+    width: 70%;
+    justify-content: flex-end;
+    margin-left: auto;
+    background-color: lightblue;
+}
+.other_message {
+    width: 70%;
 }
