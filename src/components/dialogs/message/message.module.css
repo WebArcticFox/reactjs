@@ -1,0 +1,21 @@
+.messages {
+    grid-area: m;
+    display: flex;
+    flex-wrap: wrap;
+}
+.message {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+}
+.you_message {
+    width: 70%;
+    justify-content: flex-end;
+    margin-left: auto;
+    background-color: lightblue;
+}
+.other_message {
+    width: 70%;
+}

@@ -4,7 +4,7 @@ import s from './footer.module.css'
 const Footer = () => {
     return (
         <footer>
-            <p>Create WAB</p>
+            <p>Create WebArcticFox</p>
         </footer>
     );
 }

@@ -2,14 +2,11 @@ import React from "react";
 import s from './myposts.module.css'
 import Mypost from "./post/mypost";
 
-const Myposts = () => {
+const Myposts = (props) => {
 
-    let posts = [
-        {id: 1, text: 'Лучший пост', like: 2},
-        {id: 2, text: 'Псевдо пост', like: 25},
-        {id: 3, text: 'Худший пост', like: 142},
-        {id: 4, text: 'Мой лучший пост', like: 580},
-    ]
+
+
+    let postsJsx = props.data.map( post => <Mypost id={post.id} text={post.text} like={post.like} />)
 
     return (
         <div>
@@ -22,10 +19,7 @@ const Myposts = () => {
                 </div>
             </div>
             <div className={s.posts}>
-                <Mypost id={posts[0].id} text={posts[0].text} like={posts[0].like} />
-                <Mypost id={posts[1].id} text={posts[1].text} like={posts[1].like} />
-                <Mypost id={posts[2].id} text={posts[1].text} like={posts[2].like} />
-                <Mypost id={posts[3].id} text={posts[1].text} like={posts[3].like} />
+                {postsJsx}
             </div>
         </div>
     );
