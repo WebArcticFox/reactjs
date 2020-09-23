@@ -6,7 +6,7 @@ const Myposts = (props) => {
 
 
 
-    let postsJsx = props.data.map( post => <Mypost id={post.id} text={post.text} like={post.like} />)
+    let postsJsx = props.post.map( post => <Mypost id={post.id} text={post.text} like={post.like} />)
 
     return (
         <div>
