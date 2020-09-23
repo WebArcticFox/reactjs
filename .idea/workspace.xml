@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fd602dc-d616-40d9-a7a0-fe6d4594c734" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/dialogs/dialog/dialog.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialogs/dialog/dialog.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialogs/message/message.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/dialogs/message/message.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d42f0f7220f5b45262c1e716a84764465e58093" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/373afae9149e25a2ae23b8dc602ac50ae0d62b1f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8cd0028614bedfcb7b0a24094258a60cda1a0118" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99501fce4f5e574dbfa52abc9402c1cdd732b3a1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af1e4997f565bf7437f800de689899a2ad72c551" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/defcaf559a929f96fac2d3b607037531b0063f06" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/1484b99032a95d7f175bd997e8872adb9f736746" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/1484b99032a95d7f175bd997e8872adb9f736746" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60e01d70e12446d53b2f26733c4cd32751ea0437" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60e01d70e12446d53b2f26733c4cd32751ea0437" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/myposts/myposts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myposts/myposts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,8 @@
       <workItem from="1599908737089" duration="3070000" />
       <workItem from="1600256945728" duration="7952000" />
       <workItem from="1600280792949" duration="1869000" />
-      <workItem from="1600345291482" duration="10356000" />
+      <workItem from="1600345291482" duration="10450000" />
+      <workItem from="1600865892113" duration="209000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 14">
       <created>1600262610523</created>

@@ -51,3 +51,15 @@ T
 $src/components/settings/settings.jsx,1/4/1484b99032a95d7f175bd997e8872adb9f736746
 ;
 src/App.css,a/a/aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
+b
+2src/components/profile/ProfileInfo/profileInfo.jsx,d/e/defcaf559a929f96fac2d3b607037531b0063f06
+i
+9src/components/profile/ProfileInfo/profileInfo.module.css,1/d/1d42f0f7220f5b45262c1e716a84764465e58093
+_
+/src/components/dialogs/dialog/dialog.module.css,8/c/8cd0028614bedfcb7b0a24094258a60cda1a0118
+a
+1src/components/dialogs/message/message.module.css,9/9/99501fce4f5e574dbfa52abc9402c1cdd732b3a1
+X
+(src/components/dialogs/dialog/dialog.jsx,3/7/373afae9149e25a2ae23b8dc602ac50ae0d62b1f
+Z
+*src/components/dialogs/message/message.jsx,a/f/af1e4997f565bf7437f800de689899a2ad72c551
