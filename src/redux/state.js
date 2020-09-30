@@ -1,3 +1,5 @@
+import rerenderEntireTree from "../render";
+
 let state = {
     profilePage:{
         posts: [
@@ -32,5 +34,26 @@ let state = {
     }
 
 };
+
+export let addPost = (postMessage) => {
+    let newPost = {
+        id: 5,
+        text: postMessage,
+        like: 0
+    }
+    state.profilePage.posts.push(newPost)
+    rerenderEntireTree(state)
+}
+
+export let addMessage = (textMessage) => {
+    let newMessage = {
+        id: 6,
+        text: textMessage,
+        author: 'you_message',
+        img: 'https://cms.qz.com/wp-content/uploads/2020/02/friends-cast-e1582558282192.jpeg?quality=75&strip=all&w=410&h=230'
+    }
+    state.dialogsPage.messages.push(newMessage)
+    rerenderEntireTree(state)
+}
 
 export default state;

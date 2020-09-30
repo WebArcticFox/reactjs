@@ -10,7 +10,8 @@ const Myposts = (props) => {
 
     let addPost = () => {
         let text = newPostElement.current.value
-        alert(text)
+        props.addPost(text);
+        newPostElement.current.value = ''
     }
 
     let clearPost = () => {
