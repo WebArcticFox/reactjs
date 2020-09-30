@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fd602dc-d616-40d9-a7a0-fe6d4594c734" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navbar/navbar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialog/dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/dialog/dialog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialog/dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/dialog/dialog.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/message/message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/message/message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/message/message.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/message/message.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/myposts/myposts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myposts/myposts.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +124,8 @@
       <workItem from="1600280792949" duration="1869000" />
       <workItem from="1600345291482" duration="10450000" />
       <workItem from="1600865892113" duration="1450000" />
-      <workItem from="1600870111824" duration="3990000" />
+      <workItem from="1600870111824" duration="4427000" />
+      <workItem from="1601052051980" duration="1987000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 14">
       <created>1600262610523</created>

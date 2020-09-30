@@ -63,3 +63,13 @@ X
 (src/components/dialogs/dialog/dialog.jsx,3/7/373afae9149e25a2ae23b8dc602ac50ae0d62b1f
 Z
 *src/components/dialogs/message/message.jsx,a/f/af1e4997f565bf7437f800de689899a2ad72c551
+=
+src/index.css,c/5/c5d38a62d1faae90a2acaa34b79a7ef365c917e4
+?
+src/App.test.js,9/2/923703ced91ac38943d37930d9d27a7ebe8f01ad
+P
+ src/components/navbar/navbar.jsx,6/c/6c25e162ebe809fc8715a5fe9c3265c5d64dd30c
+W
+'src/components/navbar/navbar.module.css,e/d/ed76495c7f8b2d7150f0135861af688b39572921
+B
+src/redux/state.js,5/f/5fa562b6e0771cf76ad76b5f413e495f69c8169c

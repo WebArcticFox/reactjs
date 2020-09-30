@@ -4,18 +4,27 @@ import Mypost from "./post/mypost";
 
 const Myposts = (props) => {
 
-
-
     let postsJsx = props.post.map( post => <Mypost id={post.id} text={post.text} like={post.like} />)
+
+    let newPostElement = React.createRef();
+
+    let addPost = () => {
+        let text = newPostElement.current.value
+        alert(text)
+    }
+
+    let clearPost = () => {
+        newPostElement.current.value = ''
+    }
 
     return (
         <div>
             <h4>My posts</h4>
             <div className={s.new_post}>
-                <textarea placeholder="New post"></textarea>
+                <textarea ref={newPostElement} placeholder="New post"></textarea>
                 <div>
-                    <button>Add post</button>
-                    <button>Remove</button>
+                    <button onClick={ addPost }>Add post</button>
+                    <button onClick={ clearPost }>Remove</button>
                 </div>
             </div>
             <div className={s.posts}>
