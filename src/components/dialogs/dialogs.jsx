@@ -8,13 +8,16 @@ const Dialogs = (props) => {
     let newMessageElement = React.createRef();
 
     let addMessage = () => {
+        props.addMessage()
+    }
+
+    let changeTextMessage = () => {
         let message = newMessageElement.current.value
-        props.addMessage(message)
-        newMessageElement.current.value = ''
+        props.changeTextMessage(message)
     }
 
     let clearMessage = () => {
-        newMessageElement.current.value = ''
+        props.changeTextMessage('')
     }
 
     let dialogsJsx = props.state.dialogs.map( d => <Dialog name={d.name} img={d.img} path={d.id} />)
@@ -28,7 +31,7 @@ const Dialogs = (props) => {
             <div className={s.messages}>
                 {messageJsx}
                 <div className={s.new_message}>
-                    <textarea ref={newMessageElement} placeholder="New message"></textarea>
+                    <textarea onChange={changeTextMessage} value={props.state.newMessageText} ref={newMessageElement} placeholder="New message"></textarea>
                     <div>
                         <button onClick={ addMessage }>Add message</button>
                         <button onClick={ clearMessage }>Remove</button>

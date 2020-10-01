@@ -73,3 +73,5 @@ W
 'src/components/navbar/navbar.module.css,e/d/ed76495c7f8b2d7150f0135861af688b39572921
 B
 src/redux/state.js,5/f/5fa562b6e0771cf76ad76b5f413e495f69c8169c
+=
+src/render.js,b/4/b4eb056d17455752771fe8f4ca1432e4d9c7abbc
