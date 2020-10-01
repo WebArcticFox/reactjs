@@ -11,6 +11,7 @@ import Footer from "./components/footer/footer";
 import {BrowserRouter, Route} from "react-router-dom";
 
 
+
 const App = (props) => {
     return (
         <BrowserRouter>
@@ -18,8 +19,8 @@ const App = (props) => {
                 <Header/>
                 <Nav state={props.state.siteData} />
                 <div className="app_wrapper_content">
-                    <Route path='/profile' render={ () => (<Profile state={props.state.profilePage} addPost={props.addPost} changeTextPost={props.changeTextPost} />) } />
-                    <Route path='/message' render={ () => (<Dialogs state={props.state.dialogsPage} addMessage={props.addMessage} changeTextMessage={props.changeTextMessage} />) } />
+                    <Route path='/profile' render={ () => (<Profile profilePage={props.state.profilePage} addPost={props.addPost} changeTextPost={props.changeTextPost} />) } />
+                    <Route path='/message' render={ () => (<Dialogs dialogsPage={props.state.dialogsPage} addMessage={props.addMessage} changeTextMessage={props.changeTextMessage} />) } />
                     <Route path='/news' component={News}/>
                     <Route path='/music' component={Music}/>
                     <Route path='/settings' component={Settings}/>

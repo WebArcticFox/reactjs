@@ -8,20 +8,20 @@ const Dialogs = (props) => {
     let newMessageElement = React.createRef();
 
     let addMessage = () => {
-        props.addMessage()
+        props.dialogsPage.addMessage()
     }
 
     let changeTextMessage = () => {
         let message = newMessageElement.current.value
-        props.changeTextMessage(message)
+        props.dialogsPage.changeTextMessage(message)
     }
 
     let clearMessage = () => {
-        props.changeTextMessage('')
+        props.dialogsPage.changeTextMessage('')
     }
 
-    let dialogsJsx = props.state.dialogs.map( d => <Dialog name={d.name} img={d.img} path={d.id} />)
-    let messageJsx = props.state.messages.map( m => <Message id={m.id} text={m.text} img={m.img} author={m.author} />)
+    let dialogsJsx = props.dialogsPage.dialogs.map( d => <Dialog name={d.name} img={d.img} path={d.id} />)
+    let messageJsx = props.dialogsPage.messages.map( m => <Message id={m.id} text={m.text} img={m.img} author={m.author} />)
 
     return(
         <div className={s.content}>
@@ -31,7 +31,7 @@ const Dialogs = (props) => {
             <div className={s.messages}>
                 {messageJsx}
                 <div className={s.new_message}>
-                    <textarea onChange={changeTextMessage} value={props.state.newMessageText} ref={newMessageElement} placeholder="New message"></textarea>
+                    <textarea onChange={changeTextMessage} value={props.dialogsPage.newMessageText} ref={newMessageElement} placeholder="New message"></textarea>
                     <div>
                         <button onClick={ addMessage }>Add message</button>
                         <button onClick={ clearMessage }>Remove</button>
