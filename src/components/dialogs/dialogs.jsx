@@ -2,23 +2,24 @@ import React from 'react'
 import s from './dialogs.module.css'
 import Dialog from "./dialog/dialog"
 import Message from "./message/message"
+import {addMessageActionCreator, changeTextMessageActionCreator} from "../../redux/state";
+
 
 const Dialogs = (props) => {
 
     let newMessageElement = React.createRef();
 
     let addMessage = () => {
-        props.dispatch( {type:'ADD-MESSAGE'} )
+        props.dispatch( addMessageActionCreator() )
     }
 
     let changeTextMessage = () => {
         let message = newMessageElement.current.value
-        props.dispatch( {type: 'CHANGE-TEXT-MESSAGE', textMessage: message} )
+        props.dispatch( changeTextMessageActionCreator(message) )
     }
 
     let clearMessage = () => {
-        let action = {type: 'CHANGE-TEXT-MESSAGE', textMessage: ''};
-        props.dispatch( action )
+        props.dispatch( changeTextMessageActionCreator('') )
     }
 
     let dialogsJsx = props.dialogsPage.dialogs.map( d => <Dialog name={d.name} img={d.img} path={d.id} />)
