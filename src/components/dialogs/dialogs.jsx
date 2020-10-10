@@ -8,16 +8,17 @@ const Dialogs = (props) => {
     let newMessageElement = React.createRef();
 
     let addMessage = () => {
-        props.dialogsPage.addMessage()
+        props.dispatch( {type:'ADD-MESSAGE'} )
     }
 
     let changeTextMessage = () => {
         let message = newMessageElement.current.value
-        props.dialogsPage.changeTextMessage(message)
+        props.dispatch( {type: 'CHANGE-TEXT-MESSAGE', textMessage: message} )
     }
 
     let clearMessage = () => {
-        props.dialogsPage.changeTextMessage('')
+        let action = {type: 'CHANGE-TEXT-MESSAGE', textMessage: ''};
+        props.dispatch( action )
     }
 
     let dialogsJsx = props.dialogsPage.dialogs.map( d => <Dialog name={d.name} img={d.img} path={d.id} />)

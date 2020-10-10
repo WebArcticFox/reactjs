@@ -40,37 +40,33 @@ let store = {
     setSubscribe(observer){
         this._subscriber = observer
     },
-    changeTextPost(postMessage) {
-        this._state.profilePage.newPostText = postMessage
-        this._subscriber(this._state)
-    },
-    addPost() {
-        let newPost = {
-            id: 5,
-            text: this._state.profilePage.newPostText,
-            like: 0
-        }
-        this._state.profilePage.posts.push(newPost)
-        this._state.profilePage.newPostText = ''
-        this._subscriber(this._state)
-    },
-    addMessage () {
-        let newMessage = {
-            id: 6,
-            text: this._state.dialogsPage.newMessageText,
-            author: 'you_message',
-            img: 'https://cms.qz.com/wp-content/uploads/2020/02/friends-cast-e1582558282192.jpeg?quality=75&strip=all&w=410&h=230'
-        }
-        this._state.dialogsPage.messages.push(newMessage)
-        this._state.dialogsPage.newMessageText = ''
-        this._subscriber(this._state)
-    },
-    changeTextMessage(textMessage){
-        this._state.dialogsPage.newMessageText = textMessage
-        this._subscriber(this._state)
-    },
     getState() {
         return this._state
+    },
+    dispatch(action){
+        if(action.type === 'ADD-POST'){
+            let newPost = {
+                id: 5,
+                text: this._state.profilePage.newPostText,
+                like: 0
+            }
+            this._state.profilePage.posts.push(newPost)
+            this._state.profilePage.newPostText = ''
+        }else if(action.type === 'CHANGE-TEXT-POST'){
+            this._state.profilePage.newPostText = action.postMessage
+        }else if(action.type === 'ADD-MESSAGE'){
+            let newMessage = {
+                id: 6,
+                text: this._state.dialogsPage.newMessageText,
+                author: 'you_message',
+                img: 'https://cms.qz.com/wp-content/uploads/2020/02/friends-cast-e1582558282192.jpeg?quality=75&strip=all&w=410&h=230'
+            }
+            this._state.dialogsPage.messages.push(newMessage)
+            this._state.dialogsPage.newMessageText = ''
+        }else if(action.type === 'CHANGE-TEXT-MESSAGE'){
+            this._state.dialogsPage.newMessageText = action.textMessage
+        }
+        this._subscriber(this._state)
     }
 }
 
