@@ -1,35 +1,34 @@
 import React from "react";
 import s from './myposts.module.css'
 import Mypost from "./post/mypost";
-import {addPostActionCreator, changeTextActionCreator} from "../../../redux/profile-reducer";
 
 
 
-const Myposts = (props) => {
-    let postsJsx = props.profilePage.posts.map( post => <Mypost key={post.id} id={post.id} text={post.text} like={post.like} />)
+const MypostsContainer = (props) => {
+    let postsJsx = props.post.map( post => <Mypost key={post.id} id={post.id} text={post.text} like={post.like} />)
 
 
-    let addPost = () => {
-        props.dispatch(addPostActionCreator())
+    let onAddPost = () => {
+        props.addPost();
     }
 
     let onPostChange = (e) => {
         let text = e.target.value
-        props.dispatch(changeTextActionCreator(text))
+        props.changePostText(text);
     }
 
-    let clearPost = () => {
-        props.dispatch(changeTextActionCreator(''))
+    let onClearPost = () => {
+        props.changePostText('');
     }
 
     return (
         <div>
             <h4>My posts</h4>
             <div className={s.new_post}>
-                <textarea onChange={onPostChange} value={props.profilePage.newPostText} placeholder="New post"></textarea>
+                <textarea onChange={ onPostChange } value={props.newPostText} placeholder="New post"></textarea>
                 <div>
-                    <button onClick={ addPost }>Add post</button>
-                    <button onClick={ clearPost }>Remove</button>
+                    <button onClick={ onAddPost }>Add post</button>
+                    <button onClick={ onClearPost }>Remove</button>
                 </div>
             </div>
             <div className={s.posts}>
@@ -39,4 +38,4 @@ const Myposts = (props) => {
     );
 }
 
-export default Myposts;
+export default MypostsContainer;

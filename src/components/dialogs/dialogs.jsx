@@ -2,27 +2,26 @@ import React from 'react'
 import s from './dialogs.module.css'
 import Dialog from "./dialog/dialog"
 import Message from "./message/message"
-import {addMessageActionCreator, changeTextMessageActionCreator} from "../../redux/dialogs-reducer";
 
 
 const Dialogs = (props) => {
 
 
-    let addMessage = () => {
-        props.dispatch( addMessageActionCreator() )
+    let onAddMessage = () => {
+        props.addMessage()
     }
 
-    let changeTextMessage = (e) => {
+    let onChangeTextMessage = (e) => {
         let message = e.target.value
-        props.dispatch( changeTextMessageActionCreator(message) )
+        props.changeTextMessage(message)
     }
 
-    let clearMessage = () => {
-        props.dispatch( changeTextMessageActionCreator('') )
+    let onClearMessage = () => {
+        props.changeTextMessage('')
     }
 
-    let dialogsJsx = props.dialogsPage.dialogs.map( d => <Dialog key={d.id} name={d.name} img={d.img} path={d.id} />)
-    let messageJsx = props.dialogsPage.messages.map( m => <Message key={m.id} id={m.id} text={m.text} img={m.img} author={m.author} />)
+    let dialogsJsx = props.dialogs.map( d => <Dialog key={d.id} name={d.name} img={d.img} path={d.id} />)
+    let messageJsx = props.messages.map( m => <Message key={m.id} id={m.id} text={m.text} img={m.img} author={m.author} />)
 
     return(
         <div className={s.content}>
@@ -32,10 +31,10 @@ const Dialogs = (props) => {
             <div className={s.messages}>
                 {messageJsx}
                 <div className={s.new_message}>
-                    <textarea onChange={changeTextMessage} value={props.dialogsPage.newMessageText} placeholder="New message"></textarea>
+                    <textarea onChange={onChangeTextMessage} value={props.newMessageText} placeholder="New message"></textarea>
                     <div>
-                        <button onClick={ addMessage }>Add message</button>
-                        <button onClick={ clearMessage }>Remove</button>
+                        <button onClick={ onAddMessage }>Add message</button>
+                        <button onClick={ onClearMessage }>Remove</button>
                     </div>
                 </div>
             </div>
