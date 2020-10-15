@@ -17,11 +17,11 @@ const App = (props) => {
         <BrowserRouter>
             <div className="app_wrapper">
                 <Header/>
-                <Nav state={props.state.siteData} />
+                <Nav />
                 <div className="app_wrapper_content">
-                    <Route exact path='/' render={ () => (<Profile store={props.store} />) } />
-                    <Route path='/profile' render={ () => (<Profile store={props.store} />) } />
-                    <Route path='/message' render={ () => (<DialogsContainer store={props.store} />) } />
+                    <Route exact path='/' render={ () => (<Profile />) } />
+                    <Route path='/profile' render={ () => (<Profile />) } />
+                    <Route path='/message' render={ () => (<DialogsContainer />) } />
                     <Route path='/news' component={News}/>
                     <Route path='/music' component={Music}/>
                     <Route path='/settings' component={Settings}/>

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fd602dc-d616-40d9-a7a0-fe6d4594c734" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/dialogs/dialogsContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/profile/myposts/mypostscontainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/StoreContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/myposts/myposts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myposts/myposts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/dialogsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/myposts/mypostscontainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myposts/mypostscontainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profile/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -134,7 +134,7 @@
       <workItem from="1601573133570" duration="6607000" />
       <workItem from="1601739254876" duration="151000" />
       <workItem from="1602343458780" duration="6010000" />
-      <workItem from="1602675133780" duration="6380000" />
+      <workItem from="1602675133780" duration="8723000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 14">
       <created>1600262610523</created>
