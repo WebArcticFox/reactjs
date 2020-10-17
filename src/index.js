@@ -3,24 +3,14 @@ import React from "react";
 import "./index.css";
 import App from "./App";
 import store from './redux/redux-store';
-import StoreContext, {Provider} from "./components/StoreContext";
+import {Provider} from "react-redux";
 
 
-let rerenderEntireTree = () => {
-    ReactDOM.render(
-        <React.StrictMode>
-            <StoreContext.Provider value={store}>
-                <Provider store={store}>
-                    <App />
-                </Provider>
-            </StoreContext.Provider>
-        </React.StrictMode>,
-        document.getElementById('root')
-    );
-}
-
-store.subscribe(() => {
-    rerenderEntireTree();
-});
-
-rerenderEntireTree()
+ReactDOM.render(
+    <React.StrictMode>
+            <Provider store={store}>
+                <App />
+            </Provider>
+    </React.StrictMode>,
+    document.getElementById('root')
+);
