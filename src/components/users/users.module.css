@@ -1,0 +1,6 @@
+.content {
+    display: grid;
+    grid-template-areas:
+            "d m";
+    grid-template-columns: 3fr 7fr;
+}

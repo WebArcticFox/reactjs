@@ -3,36 +3,6 @@ import {addMessageActionCreator, changeTextMessageActionCreator} from "../../red
 import Dialogs from "./dialogs";
 import {connect} from "react-redux";
 
-//
-// const DialogsContainer = (props) => {
-//
-//     return(
-//         <StoreContext.Consumer>
-//         { (store) => {
-//
-//                 let state = store.getState();
-//
-//                 let addMessage = () => {
-//                     store.dispatch( addMessageActionCreator() )
-//                 }
-//
-//                 let changeTextMessage = (text) => {
-//                     store.dispatch( changeTextMessageActionCreator(text) )
-//                 }
-//
-//                 let clearMessage = () => {
-//                     store.dispatch( changeTextMessageActionCreator('') )
-//                 }
-//
-//                 return(<Dialogs addMessage={addMessage} changeTextMessage={changeTextMessage} clearMessage={clearMessage}
-//                          dialogs={state.dialogsPage.dialogs} messages={state.dialogsPage.messages}
-//                          newMessageText={state.dialogsPage.newMessageText}/>)
-//             }
-//         }
-//         </StoreContext.Consumer>
-//     )
-// }
-
 const mapStateToProps = (state) => {
     return {
         dialogs: state.dialogsPage.dialogs,
