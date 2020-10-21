@@ -1,11 +1,12 @@
 import React from 'react'
 import s from './user.module.css'
+import userPhoto from '../../../img_notfound.jpeg'
 
 const User = (props) => {
     return (
         <div className={s.user} id={props.id}>
             <div className={s.userleft}>
-                <img src={props.img} />
+                <img src={props.img !== null ? props.img : userPhoto} />
                 {props.follow ? <button className={s.follow_unfollow} onClick={ ()=> { props.unFollowUser(props.id) } }>Follow</button> : <button className={s.follow_unfollow} onClick={ ()=> { props.followUser(props.id) } }>Unfollow</button>}
             </div>
             <div className={s.userCenter}>
