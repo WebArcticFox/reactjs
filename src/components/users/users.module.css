@@ -4,3 +4,18 @@
             "d m";
     grid-template-columns: 3fr 7fr;
 }
+.pagination {
+    display: flex;
+    padding: 10px 0;
+}
+.pagination span {
+    display: block;
+    padding: 5px;
+}
+.selectedPage {
+    border: 1px solid #888;
+    padding: 5px;
+}
+.goToPage {
+    padding: 5px;
+}

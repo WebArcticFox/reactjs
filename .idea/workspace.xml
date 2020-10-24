@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fd602dc-d616-40d9-a7a0-fe6d4594c734" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/index_strict.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a0cfe1f7f93b1a0f112add6f7eac55dd191f32b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a0cfe1f7f93b1a0f112add6f7eac55dd191f32b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/0095a8728e647ac69dbf6b010498e0af5fa819bb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/0095a8728e647ac69dbf6b010498e0af5fa819bb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aeefaa0eaf5447d2a31d6efd5cef02b19a3dcf99" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aeefaa0eaf5447d2a31d6efd5cef02b19a3dcf99" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialog/dialog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/dialog/dialog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/message/message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/message/message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/music/music.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/music/music.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/news/news.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/news/news.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/ProfileInfo/profileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/ProfileInfo/profileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/myposts/myposts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myposts/myposts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/myposts/post/mypost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myposts/post/mypost.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/profile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/settings/settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/settings/settings.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/user/user.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/user/user.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/users.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/usersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/usersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +139,9 @@
       <workItem from="1602936059313" duration="12888000" />
       <workItem from="1603108852155" duration="36000" />
       <workItem from="1603291141227" duration="2034000" />
-      <workItem from="1603544099214" duration="3706000" />
+      <workItem from="1603544099214" duration="4271000" />
+      <workItem from="1603571129813" duration="114000" />
+      <workItem from="1603571436890" duration="6442000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 14">
       <created>1600262610523</created>
