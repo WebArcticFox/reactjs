@@ -2,10 +2,12 @@ import React from 'react'
 import s from './message.module.css'
 
 
-const Message = (props) => {
-    return (
-        <div id={props.id} className={s.message+' '+s[props.author]}><img src={props.img} /> {props.text}</div>
-    )
+class Message extends React.Component {
+    render = () => {
+        return (
+            <div id={this.props.id} className={s.message+' '+s[this.props.author]}><img src={this.props.img} /> {this.props.text}</div>
+        )
+    }
 }
 
 export default Message;

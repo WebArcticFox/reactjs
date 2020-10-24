@@ -1,8 +1,9 @@
 import React from "react";
 import s from './profileInfo.module.css'
 
-const ProfileInfo = () => {
-    return (
+class ProfileInfo extends React.Component {
+    render = () => {
+        return (
             <div className={s.profileinfo}>
                 <div className={s.fullimg}>
                     <img src="http://alp.org.ua/wp-content/uploads/2012/07/artleo.com_21593.jpg" />
@@ -15,7 +16,8 @@ const ProfileInfo = () => {
                     </div>
                 </div>
             </div>
-    );
+        );
+    }
 }
 
 export default ProfileInfo;

@@ -4,42 +4,43 @@ import Dialog from "./dialog/dialog"
 import Message from "./message/message"
 
 
-const Dialogs = (props) => {
+class Dialogs extends React.Component{
 
-
-    let onAddMessage = () => {
-        props.addMessage()
+    onAddMessage = () => {
+        this.props.addMessage()
     }
 
-    let onChangeTextMessage = (e) => {
+    onChangeTextMessage = (e) => {
         let message = e.target.value
-        props.changeTextMessage(message)
+        this.props.changeTextMessage(message)
     }
 
-    let onClearMessage = () => {
-        props.changeTextMessage('')
+    onClearMessage = () => {
+        this.props.changeTextMessage('')
     }
 
-    let dialogsJsx = props.dialogs.map( d => <Dialog key={d.id} name={d.name} img={d.img} path={d.id} />)
-    let messageJsx = props.messages.map( m => <Message key={m.id} id={m.id} text={m.text} img={m.img} author={m.author} />)
+    render = () => {
+        let dialogsJsx = this.props.dialogs.map( d => <Dialog key={d.id} name={d.name} img={d.img} path={d.id} />)
+        let messageJsx = this.props.messages.map( m => <Message key={m.id} id={m.id} text={m.text} img={m.img} author={m.author} />)
 
-    return(
-        <div className={s.content}>
-            <div className={s.dialogs}>
-                {dialogsJsx}
-            </div>
-            <div className={s.messages}>
-                {messageJsx}
-                <div className={s.new_message}>
-                    <textarea onChange={onChangeTextMessage} value={props.newMessageText} placeholder="New message"></textarea>
-                    <div>
-                        <button onClick={ onAddMessage }>Add message</button>
-                        <button onClick={ onClearMessage }>Remove</button>
+        return(
+            <div className={s.content}>
+                <div className={s.dialogs}>
+                    {dialogsJsx}
+                </div>
+                <div className={s.messages}>
+                    {messageJsx}
+                    <div className={s.new_message}>
+                        <textarea onChange={this.onChangeTextMessage} value={this.props.newMessageText} placeholder="New message"></textarea>
+                        <div>
+                            <button onClick={ this.onAddMessage }>Add message</button>
+                            <button onClick={ this.onClearMessage }>Remove</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    )
+        )
+    }
 }
 
 export default Dialogs;
