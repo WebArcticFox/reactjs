@@ -3,6 +3,7 @@ const UNFOLLOW = 'UNFOLLOW';
 const SET_USER = 'SET_USER';
 const SET_PAGE = 'SET_PAGE';
 const SET_CURPAGE = 'SET_CURPAGE';
+const TOGGLE_FETCHING = 'TOGGLE_FETCHINT';
 
 let initialState = {
     users: [],
@@ -14,7 +15,8 @@ let initialState = {
         prev_page: 0,
         limit: 4
     },
-    currentPage: 0
+    currentPage: 0,
+    isFetching: false
 }
 
 const usersReducer = (state = initialState, action) => {
@@ -59,16 +61,19 @@ const usersReducer = (state = initialState, action) => {
                 ...state,
                 currentPage: action.page,
             }
+        case TOGGLE_FETCHING:
+            return { ...state, isFetching: action.fetching}
         default:
             return state;
     }
 }
 
-export const followAC = (userId) => ({type: FOLLOW, userId: userId})
-export const unFollowAC = (userId) => ({type: UNFOLLOW, userId: userId})
-export const setUserAC = (users) => ({type: SET_USER, users: users})
-export const setPaginationAC = (pagination) => ({type: SET_PAGE, pagination: pagination})
-export const setCurrentPageAC = (page) => ({type: SET_CURPAGE, page: page})
+export const follow = (userId) => ({type: FOLLOW, userId: userId})
+export const unFollow = (userId) => ({type: UNFOLLOW, userId: userId})
+export const setUser = (users) => ({type: SET_USER, users: users})
+export const setPagination = (pagination) => ({type: SET_PAGE, pagination: pagination})
+export const setCurrentPage = (page) => ({type: SET_CURPAGE, page: page})
+export const toggleIsFetching = (fetching) => ({type: TOGGLE_FETCHING, fetching: fetching})
 
 
 export default usersReducer;

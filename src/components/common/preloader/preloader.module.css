@@ -1,0 +1,9 @@
+.preloader__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.preloader {
+    width: 100px;
+}
