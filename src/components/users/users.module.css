@@ -6,6 +6,7 @@
 }
 .pagination {
     display: flex;
+    flex-flow: wrap;
     padding: 10px 0;
 }
 .pagination span {
@@ -33,7 +34,7 @@
 }
 .userleft img {
     width: 100%;
-    height: 65px;
+    height: 85px;
 }
 .follow_unfollow {
     width: 100%;
