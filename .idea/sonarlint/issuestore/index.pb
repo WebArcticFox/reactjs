@@ -101,3 +101,9 @@ Y
 )src/components/users/user/user.module.css,9/3/936369531bb6776f7fb3f726b2c6b82cd2e39823
 C
 src/index_strict.js,f/4/f47c885c3ab4ea71aac26f90fe8a2cea9c9e7a10
+A
+src/preloader.svg,9/9/994bf0cc9dc19c7b887ce989bcb1b7ba71c0a154
+d
+4src/components/common/preloader/preloader.module.css,b/0/b089069e8150e3df4dae48634f1545843da2fa47
+]
+-src/components/common/preloader/preloader.jsx,0/b/0bedbb0222af35fe05d43a0bf3c38a3f4bd6e4cc

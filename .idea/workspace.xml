@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fd602dc-d616-40d9-a7a0-fe6d4594c734" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/preloader/preloader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/preloader/preloader.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/preloader.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a0cfe1f7f93b1a0f112add6f7eac55dd191f32b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a0cfe1f7f93b1a0f112add6f7eac55dd191f32b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/user/user.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/user/user.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/user/user.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/user/user.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/users.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users/usersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/usersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img_notfound.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/img_notfound.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +62,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,19 +74,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/components/users" />
-      <recent name="$PROJECT_DIR$/src/redux" />
-      <recent name="$PROJECT_DIR$/src/components/nav" />
-      <recent name="$PROJECT_DIR$/src/components/dialogs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img" />
       <recent name="$PROJECT_DIR$/src/components/common" />
       <recent name="$PROJECT_DIR$/media/img" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/redux" />
-      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/redux" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/components/users" />
+      <recent name="$PROJECT_DIR$/src/components/nav" />
+      <recent name="$PROJECT_DIR$/src/components/dialogs" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -141,7 +144,8 @@
       <workItem from="1603291141227" duration="2034000" />
       <workItem from="1603544099214" duration="4271000" />
       <workItem from="1603571129813" duration="114000" />
-      <workItem from="1603571436890" duration="12298000" />
+      <workItem from="1603571436890" duration="12428000" />
+      <workItem from="1607080924092" duration="6634000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 14">
       <created>1600262610523</created>
@@ -169,10 +173,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="361" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1599906435799" />
-    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602936573135">
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607083028881">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1602936573135" />
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1607083028881" />
     <state x="388" y="263" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603547180606">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
