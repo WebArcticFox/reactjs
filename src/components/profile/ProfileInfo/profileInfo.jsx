@@ -1,22 +1,32 @@
 import React from "react";
 import s from './profileInfo.module.css'
+import Preloader from "../../common/preloader/preloader";
 
-class ProfileInfo extends React.Component {
-    render = () => {
+const ProfileInfo = (props) => {
+    if(!props.profile) {
+        return <Preloader/>
+    }else{
         return (
             <div className={s.profileinfo}>
                 <div className={s.fullimg}>
-                    <img src="http://alp.org.ua/wp-content/uploads/2012/07/artleo.com_21593.jpg" />
+                    <img src={props.profile.photos.large} />
                 </div>
                 <div className={s.baseinfo}>
-                    <img className={s.avatar} src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg?resize=750px:*" />
+                    <img className={s.avatar} src={props.profile.photos.small} />
                     <div>
-                        <p className={s.name}>Alexander</p>
-                        <p className={s.desc}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+                        <p className={s.name}>{props.profile.fullName}</p>
+                        <p className={s.desc}>{props.profile.lookingForAJobDescription}</p>
+                        <br />
+                        <p className={s.desc}>Github: {props.profile.contacts.github}</p>
+                        <p className={s.desc}>VK: {props.profile.contacts.vk}</p>
+                        <p className={s.desc}>Site: {props.profile.contacts.website}</p>
+                        <p className={s.desc}>FB: {props.profile.contacts.facebook}</p>
+                        <p className={s.desc}>instagram: {props.profile.contacts.instagram}</p>
                     </div>
+
                 </div>
             </div>
-        );
+        )
     }
 }
 
