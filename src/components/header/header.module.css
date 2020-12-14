@@ -6,3 +6,12 @@ header {
 header img {
     max-height: 90%;
 }
+.login {
+    float: right;
+}
+.login a {
+    display: block;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;
+}

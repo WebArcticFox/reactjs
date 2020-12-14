@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fd602dc-d616-40d9-a7a0-fe6d4594c734" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/profile/profileContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/headerContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/079f559a78a47209af0d8d33d8c014416e72911c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a0cfe1f7f93b1a0f112add6f7eac55dd191f32b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a0cfe1f7f93b1a0f112add6f7eac55dd191f32b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce4badeb8c2b2ce587479ee789ecc1d46bc12af6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce4badeb8c2b2ce587479ee789ecc1d46bc12af6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/preloader/preloader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/preloader/preloader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/ProfileInfo/profileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/ProfileInfo/profileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/usersAPIComponent.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/usersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/usersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/header" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -74,19 +74,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/users" />
-      <recent name="$PROJECT_DIR$/src/redux" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/components/nav" />
-      <recent name="$PROJECT_DIR$/src/components/dialogs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/img" />
       <recent name="$PROJECT_DIR$/src/components/common" />
       <recent name="$PROJECT_DIR$/media/img" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/redux" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/header" />
+      <recent name="$PROJECT_DIR$/src/redux" />
+      <recent name="$PROJECT_DIR$/src/components/users" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/components/nav" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -146,7 +146,8 @@
       <workItem from="1603571129813" duration="114000" />
       <workItem from="1603571436890" duration="12428000" />
       <workItem from="1607080924092" duration="13001000" />
-      <workItem from="1607631136418" duration="8115000" />
+      <workItem from="1607631136418" duration="8580000" />
+      <workItem from="1607965231824" duration="1923000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 14">
       <created>1600262610523</created>

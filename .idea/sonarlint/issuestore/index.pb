@@ -38,8 +38,6 @@ R
 .src/components/profile/myposts/post/mypost.jsx,6/f/6f99cd86548becf2a6a7db89a6cc44a5079b5b3f
 I
 src/components/nav/nav.js,7/e/7ec09365e21f0d741f2f20e58415c7de091ca5e1
-Q
-!src/components/profile/profile.js,0/7/079f559a78a47209af0d8d33d8c014416e72911c
 :
 
 src/App.js,1/e/1e43fa63aecd2127be034b3fb9d4caa172275714
@@ -103,3 +101,7 @@ d
 4src/components/common/preloader/preloader.module.css,b/0/b089069e8150e3df4dae48634f1545843da2fa47
 ]
 -src/components/common/preloader/preloader.jsx,0/b/0bedbb0222af35fe05d43a0bf3c38a3f4bd6e4cc
+R
+"src/components/profile/profile.jsx,0/d/0d07d8616deee821bd04c751a83fbd4f0966e431
+[
++src/components/profile/profileContainer.jsx,0/6/062de71fdf6c9dbf53ebf86c9c1bd0e1b431a573
