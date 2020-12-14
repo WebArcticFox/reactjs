@@ -23,9 +23,9 @@ let Users = (props) => {
                         <img src={u.photos.small !== null ? u.photos.small : userPhoto} className={false}/>
                     </NavLink>
                     {u.followed ? <button className={s.follow_unfollow} onClick={() => {
-                        props.unfollow(u.id)
+                        props.onUnFollow(u.id)
                     }}>Unfollow</button> : <button className={s.follow_unfollow} onClick={() => {
-                        props.follow(u.id)
+                        props.onFollow(u.id)
                     }}>Follow</button>}
                 </div>
                 <div className={s.userCenter}>
