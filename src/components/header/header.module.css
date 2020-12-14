@@ -15,3 +15,14 @@ header img {
     background-color: #fff;
     color: #000;
 }
+.user__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user__info img {
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 20px;
+    margin-right: 10px;
+}

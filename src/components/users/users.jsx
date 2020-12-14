@@ -13,14 +13,14 @@ let Users = (props) => {
     return <div>
         <div className={s.pagination}>
             {pages.map( p => {
-                return <span className={props.currentPage === p && s.selectedPage} onClick={ () => { props.onPageChanged(p) } }>{p}</span>
+                return <span key={p} className={props.currentPage === p ? s.selectedPage : s.page} onClick={ () => { props.onPageChanged(p) } }>{p}</span>
             })}
         </div>
         {
             props.users.map( u => <div key={u.id} className={s.user} id={u.id}>
-                <div className={s.userleft}>
+                <div className={s.userLeft}>
                     <NavLink to={'/profile/'+u.id}>
-                        <img src={u.photos.small !== null ? u.photos.small : userPhoto}/>
+                        <img src={u.photos.small !== null ? u.photos.small : userPhoto} className={false}/>
                     </NavLink>
                     {u.followed ? <button className={s.follow_unfollow} onClick={() => {
                         props.unfollow(u.id)
