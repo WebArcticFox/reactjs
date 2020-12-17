@@ -3,8 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="2fd602dc-d616-40d9-a7a0-fe6d4594c734" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/headerContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/headerContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/profileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/profileContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users/users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users/usersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/usersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +147,7 @@
       <workItem from="1603571436890" duration="12428000" />
       <workItem from="1607080924092" duration="13001000" />
       <workItem from="1607631136418" duration="8580000" />
-      <workItem from="1607965231824" duration="8921000" />
+      <workItem from="1607965231824" duration="11554000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 14">
       <created>1600262610523</created>
@@ -218,9 +225,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="232" y="125" width="816" height="550" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1602937595277" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1603546925084">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1608235879565">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1603546925084" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1608235879565" />
   </component>
 </project>

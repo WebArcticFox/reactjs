@@ -23,9 +23,9 @@ let Users = (props) => {
                         <img src={u.photos.small !== null ? u.photos.small : userPhoto} className={false}/>
                     </NavLink>
                     {u.followed ? <button disabled={props.isFollow.some(id => id === u.id)} className={s.follow_unfollow} onClick={() => {
-                        props.onUnFollow(u.id)
-                    }}>Unfollow</button> : <button disabled={props.isFollow.some(id => id === u.id)} className={s.follow_unfollow} onClick={() => {
-                        props.onFollow(u.id)
+                        props.unFollowUser(u.id)
+                    }}>UnFollow</button> : <button disabled={props.isFollow.some(id => id === u.id)} className={s.follow_unfollow} onClick={() => {
+                        props.followUser(u.id)
                     }}>Follow</button>}
                 </div>
                 <div className={s.userCenter}>

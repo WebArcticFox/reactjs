@@ -1,56 +1,17 @@
 import React from "react";
 import {connect} from "react-redux";
-import {
-    follow,
-    setCurrentPage,
-    setTotalUsersCount,
-    setUsers,
-    toggleIsFetching, toggleIsFollow,
-    unfollow
-} from "../../redux/users-reducer";
+import {followUser, getUsers,unFollowUser} from "../../redux/users-reducer";
 import Users from "./users";
 import Preloader from "../common/preloader/preloader";
-import {usersAPI} from "../../api/api";
 
 
 class UsersContainer extends React.Component {
     componentDidMount() {
-        this.props.toggleIsFetching(true);
-
-        usersAPI.getUsers(this.props.currentPage,this.props.pageSize).then(data => {
-                this.props.toggleIsFetching(false);
-                this.props.setUsers(data.items)
-                this.props.setTotalUsersCount(data.totalCount)
-            })
+        this.props.getUsers(this.props.currentPage,this.props.pageSize);
     }
 
-    onPageChanged = (pageNumber) => {
-        this.props.toggleIsFetching(true);
-        this.props.setCurrentPage(pageNumber)
-        usersAPI.getUsers(pageNumber,this.props.pageSize).then(data => {
-                this.props.toggleIsFetching(false);
-                this.props.setUsers(data.items)
-            })
-    }
-
-    onFollow = (id) => {
-        this.props.toggleIsFollow(true, id)
-        usersAPI.follow(id).then(response => {
-                if(response.data.resultCode===0){
-                    this.props.follow(id)
-                }
-                this.props.toggleIsFollow(false, id)
-            })
-    }
-
-    onUnFollow = (id) => {
-        this.props.toggleIsFollow(true, id)
-        usersAPI.unFollow(id).then(response => {
-                if(response.data.resultCode===0){
-                    this.props.unfollow(id)
-                }
-                this.props.toggleIsFollow(false, id)
-            })
+    onPageChanged = (pageNumber) => { // Change page
+        this.props.getUsers(pageNumber,this.props.pageSize);
     }
 
 
@@ -62,8 +23,8 @@ class UsersContainer extends React.Component {
                    totalUsersCount={this.props.totalUsersCount}
                    pageSize={this.props.pageSize}
                    users={this.props.users}
-                   onUnFollow={this.onUnFollow}
-                   onFollow={this.onFollow}
+                   unFollowUser={this.props.unFollowUser}
+                   followUser={this.props.followUser}
                    isFollow={this.props.isFollow}
             />
         </>
@@ -82,6 +43,8 @@ let mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps,
-    {follow,unfollow,setUsers,setCurrentPage,setTotalUsersCount,toggleIsFetching,toggleIsFollow}
-)(UsersContainer);
+
+
+
+
+export default connect(mapStateToProps,{followUser,unFollowUser,getUsers} )(UsersContainer);

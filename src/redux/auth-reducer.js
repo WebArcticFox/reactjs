@@ -1,3 +1,5 @@
+import {authAPI, profileAPI} from "../api/api";
+
 const SET_USER_DATA = 'SET_USER_DATA';
 const TOGGLE_IS_FETCHING = 'TOGGLE_IS_FETCHING';
 const SET_MAIN_USER_DATA = 'SET_MAIN_USER_DATA';
@@ -38,5 +40,22 @@ const authReducer = (state = initialState, action) => {
 export const toggleIsFetching = (isFetching) => ({ type: TOGGLE_IS_FETCHING, isFetching })
 export const setUserData = (id, email, login) => ({ type: SET_USER_DATA, data: {id, email, login} })
 export const setMainUserData = (id, img) => ({ type: SET_MAIN_USER_DATA, data: {id, img} })
+
+export const getAuth = () => {
+    return (dispatch) => {
+        dispatch(toggleIsFetching(true));
+        authAPI.checkAuth().then(data => {
+            if (data.resultCode === 0) {
+                let {id, email, login} = data.data;
+                dispatch(setUserData(id, email, login))
+
+                profileAPI.getProfile(id).then(data => {
+                    dispatch(setMainUserData(id, data.photos.small))
+                    dispatch(toggleIsFetching(false))
+                })
+            }
+        })
+    }
+}
 
 export default authReducer;
