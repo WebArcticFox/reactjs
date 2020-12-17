@@ -8,7 +8,6 @@ import {
     toggleIsFetching,
     unfollow
 } from "../../redux/users-reducer";
-import * as axios from "axios";
 import Users from "./users";
 import Preloader from "../common/preloader/preloader";
 import {usersAPI} from "../../api/api";
@@ -35,13 +34,7 @@ class UsersContainer extends React.Component {
     }
 
     onFollow = (id) => {
-        axios.post(`https://social-network.samuraijs.com/api/1.0/follow/`+id, {}, {
-            withCredentials: true,
-            headers: {
-                "API-KEY": "54bcaff3-f3f3-4d77-8a3c-de95f570942f"
-            }
-        })
-            .then(response => {
+        usersAPI.follow(id).then(response => {
                 if(response.data.resultCode===0){
                     this.props.follow(id)
                 }
@@ -49,15 +42,9 @@ class UsersContainer extends React.Component {
     }
 
     onUnFollow = (id) => {
-        axios.delete(`https://social-network.samuraijs.com/api/1.0/follow/`+id, {
-            withCredentials: true,
-            headers: {
-                "API-KEY": "54bcaff3-f3f3-4d77-8a3c-de95f570942f"
-            }
-        })
-            .then(response => {
+        usersAPI.unFollow(id).then(response => {
                 if(response.data.resultCode===0){
-                    this.props.follow(id)
+                    this.props.unfollow(id)
                 }
             })
     }

@@ -4,20 +4,19 @@ import * as axios from "axios";
 import {connect} from "react-redux";
 import {setMainUserData, setUserData, toggleIsFetching} from "../../redux/auth-reducer";
 import Preloader from "../common/preloader/preloader";
+import {authAPI, profileAPI} from "../../api/api";
 
 
 class HeaderContainer extends React.Component {
     componentDidMount() {
         this.props.toggleIsFetching(true);
-        axios.get(`https://social-network.samuraijs.com/api/1.0/auth/me`, {
-            withCredentials: true
-        }).then(response => {
-            if(response.data.resultCode === 0) {
-                let {id, email, login} = response.data.data;
+        authAPI.checkAuth().then(data => {
+            if(data.resultCode === 0) {
+                let {id, email, login} = data.data;
                 this.props.setUserData(id, email, login)
-                axios.get(`https://social-network.samuraijs.com/api/1.0/profile/`+id)
-                    .then(response => {
-                        this.props.setMainUserData(id, response.data.photos.small)
+
+                profileAPI.getProfile(id).then(data => {
+                        this.props.setMainUserData(id, data.photos.small)
                         this.props.toggleIsFetching(false);
                     })
             }
