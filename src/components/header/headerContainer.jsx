@@ -3,6 +3,7 @@ import Header from "./header";
 import {connect} from "react-redux";
 import {getAuth} from "../../redux/auth-reducer";
 import Preloader from "../common/preloader/preloader";
+import {compose} from "redux";
 
 
 class HeaderContainer extends React.Component {
@@ -12,7 +13,7 @@ class HeaderContainer extends React.Component {
 
     render() {
         return ( <>
-            { this.props.isFetching ? <Preloader /> : <Header {...this.props} /> }
+            <Header {...this.props} />
             </>
         );
     }
@@ -25,4 +26,6 @@ const mapStateToProps = (state) => ({
     mainUser: state.auth.mainUser
 })
 
-export default connect(mapStateToProps, {getAuth})(HeaderContainer);
+export default compose(
+    connect(mapStateToProps, {getAuth})
+)(HeaderContainer);

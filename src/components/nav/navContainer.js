@@ -1,6 +1,7 @@
 import React from "react"
 import {connect} from "react-redux";
 import Nav from "./nav";
+import {compose} from "redux";
 
 const mapStateToProps = (state) => {
     return {
@@ -8,12 +9,6 @@ const mapStateToProps = (state) => {
     }
 }
 
-const mapDispatchToProps = (dispatch) => {
-    return {
-
-    }
-}
-
-const NavContainer = connect(mapStateToProps,mapDispatchToProps)(Nav);
-
-export default NavContainer;
+export default compose(
+    connect(mapStateToProps)
+)(Nav);
