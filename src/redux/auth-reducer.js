@@ -48,8 +48,8 @@ export const getAuth = () => (dispatch) => {
             let {id, email, login} = data.data;
             dispatch(setUserData(id, email, login))
 
-            profileAPI.getProfile(id).then(data => {
-                dispatch(setMainUserData(id, data.photos.small))
+            profileAPI.getProfile(id).then(response => {
+                dispatch(setMainUserData(id, response.data.photos.small))
                 dispatch(toggleIsFetching(false))
             })
         }
