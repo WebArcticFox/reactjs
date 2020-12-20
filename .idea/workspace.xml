@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fd602dc-d616-40d9-a7a0-fe6d4594c734" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/login/loginForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/ProfileInfo/profileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/ProfileInfo/profileStatus.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/login/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +145,7 @@
       <workItem from="1603571436890" duration="12428000" />
       <workItem from="1607080924092" duration="13001000" />
       <workItem from="1607631136418" duration="8580000" />
-      <workItem from="1607965231824" duration="24775000" />
+      <workItem from="1607965231824" duration="28149000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 14">
       <created>1600262610523</created>
@@ -180,22 +185,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="127" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1600262610130" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1608333773067">
+    <state width="619" height="212" key="GridCell.Tab.0.bottom" timestamp="1608480880559">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608333773067" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1608333773065">
+    <state width="619" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608480880559" />
+    <state width="619" height="212" key="GridCell.Tab.0.center" timestamp="1608480880558">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1608333773065" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1608333773064">
+    <state width="619" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1608480880558" />
+    <state width="619" height="212" key="GridCell.Tab.0.left" timestamp="1608480880557">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1608333773064" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1608333773066">
+    <state width="619" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1608480880557" />
+    <state width="619" height="212" key="GridCell.Tab.0.right" timestamp="1608480880559">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1608333773066" />
+    <state width="619" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1608480880559" />
     <state x="461" y="330" key="NewPhpFileDialog" timestamp="1600281196975">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

@@ -56,4 +56,14 @@ export const getAuth = () => (dispatch) => {
     })
 }
 
+export const goLogin = (data) => (dispatch) => {
+    dispatch(toggleIsFetching(true));
+    authAPI.login(data).then(response => {
+        if(response.data.resultCode === 0) {
+            this.getAuth()
+        }
+    })
+
+}
+
 export default authReducer;
