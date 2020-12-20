@@ -16,7 +16,6 @@ let initialState = {
         {id: 4, text: 'Mee too', author: 'you_message', img: 'https://cms.qz.com/wp-content/uploads/2020/02/friends-cast-e1582558282192.jpeg?quality=75&strip=all&w=410&h=230'},
         {id: 5, text: 'Good!', author: 'other_message', img: 'https://www.soyuz.ru/public/uploads/files/2/7244703/20190305183114b7f5052bb2.jpg'},
     ],
-    newMessageText: '',
 }
 
 const dialogsReducer = (state = initialState, action) => {
@@ -24,20 +23,13 @@ const dialogsReducer = (state = initialState, action) => {
         case ADD_MESSAGE:
             return {
                 ...state,
-                messages: [...state.messages, { id: 6, text: state.newMessageText, author: 'you_message', img: 'https://cms.qz.com/wp-content/uploads/2020/02/friends-cast-e1582558282192.jpeg?quality=75&strip=all&w=410&h=230'}],
-                newMessageText: ''
-            }
-        case CHANGE_TEXT_MESSAGE:
-            return {
-                ...state,
-                newMessageText: action.textMessage
+                messages: [...state.messages, { id: 6, text: action.newMessageBody, author: 'you_message', img: 'https://cms.qz.com/wp-content/uploads/2020/02/friends-cast-e1582558282192.jpeg?quality=75&strip=all&w=410&h=230'}]
             }
         default:
             return state;
     }
 }
 
-export const addMessageActionCreator = () => ({ type: ADD_MESSAGE })
-export const changeTextMessageActionCreator = (text) => ({ type: CHANGE_TEXT_MESSAGE, textMessage: text })
+export const addMessageActionCreator = (newMessageBody) => ({ type: ADD_MESSAGE, newMessageBody })
 
 export default dialogsReducer;

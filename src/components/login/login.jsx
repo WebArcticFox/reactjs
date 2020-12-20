@@ -1,7 +1,6 @@
 import React from "react";
 import LoginForm from "./loginForm";
 import {reduxForm} from "redux-form";
-import {compose} from "redux";
 import {connect} from "react-redux";
 import {goLogin} from "../../redux/auth-reducer";
 
