@@ -16,8 +16,6 @@ O
 src/components/footer/footer.js,0/a/0a5183bd20e8c53764af39d1a629ede75dd0034c
 W
 'src/components/footer/footer.module.css,0/2/02103210e12922fe0e69471cdf22a34e3f666e78
-O
-src/components/header/header.js,4/9/49314da7629fdb2d71c90fb10a9526bb763c2609
 W
 'src/components/header/header.module.css,0/5/05898bd823dc5f4bbd753b83aa1a19a1fd70495a
 Q
@@ -105,3 +103,25 @@ R
 "src/components/profile/profile.jsx,0/d/0d07d8616deee821bd04c751a83fbd4f0966e431
 [
 +src/components/profile/profileContainer.jsx,0/6/062de71fdf6c9dbf53ebf86c9c1bd0e1b431a573
+L
+src/hoc/withAuthRedirect.jsx,5/2/52f90944763a7412fb113c440cd26ab9813e2c52
+<
+.eslintcache,2/1/21d5732e90750915458158e179e86c3b1690252c
+A
+package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
+Q
+!src/components/header/minuser.jsx,1/e/1e2e67fcfd84737dff41615f3c64de645241f941
+Y
+)src/components/header/headerContainer.jsx,d/9/d93a1b9ec46f55b949b2c0523f665876bbf05ca5
+P
+ src/components/header/header.jsx,e/8/e8e4a1f84212587821bdd70ec7a5ce28f75da60e
+d
+4src/components/profile/ProfileInfo/profileStatus.jsx,5/e/5e8ef27f0cd39f7bba3a44ec89e8a47e0e398443
+I
+src/redux/auth-reducer.js,0/e/0ea8a07f88acdc37311971af8bbe2f8f89eefbc7
+>
+src/api/api.js,c/4/c4b5cc6e5316f0a41e5380b9c170bcfd1835974b
+R
+"src/components/login/loginForm.jsx,5/6/56b4f01c3d03dff3f6dc9281246f561dd6fda286
+N
+src/components/login/login.jsx,8/2/828cb4be0a3e0970b24436317b0aeb30d981c224

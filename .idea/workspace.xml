@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fd602dc-d616-40d9-a7a0-fe6d4594c734" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/common/formControls/formsControls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/formControls/formsControls.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/validators/validators.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a0cfe1f7f93b1a0f112add6f7eac55dd191f32b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a0cfe1f7f93b1a0f112add6f7eac55dd191f32b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49314da7629fdb2d71c90fb10a9526bb763c2609" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aaa18d7690ac727873f4032398e7af22b0601a34" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aaa18d7690ac727873f4032398e7af22b0601a34" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2517c4843e8c63e1d280925f9eed548439019cc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2517c4843e8c63e1d280925f9eed548439019cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce4badeb8c2b2ce587479ee789ecc1d46bc12af6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce4badeb8c2b2ce587479ee789ecc1d46bc12af6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/cebebab9aa6ef20b437c8400344547b47a967a2f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/cebebab9aa6ef20b437c8400344547b47a967a2f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc401351b331b77ecb0f783ccf676d24a0c1edf2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc401351b331b77ecb0f783ccf676d24a0c1edf2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dialogs/dialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dialogs/dialogsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/login/loginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/loginForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/profile/myposts/myposts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myposts/myposts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profile/myposts/mypostscontainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profile/myposts/mypostscontainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
     </list>
@@ -145,7 +156,8 @@
       <workItem from="1603571436890" duration="12428000" />
       <workItem from="1607080924092" duration="13001000" />
       <workItem from="1607631136418" duration="8580000" />
-      <workItem from="1607965231824" duration="29693000" />
+      <workItem from="1607965231824" duration="30845000" />
+      <workItem from="1609101423655" duration="3779000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 14">
       <created>1600262610523</created>
@@ -181,40 +193,31 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="388" y="263" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1603547180606" />
-    <state x="127" y="2" key="CommitChangelistDialog2" timestamp="1600262610130">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1609101434367">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="127" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1600262610130" />
-    <state width="619" height="212" key="GridCell.Tab.0.bottom" timestamp="1608480880559">
+    <state width="619" height="212" key="GridCell.Tab.0.bottom/-1280.280.1280.800/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1608523526631" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1609101434367" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1609101434365">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="619" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1608480880559" />
-    <state width="619" height="212" key="GridCell.Tab.0.center" timestamp="1608480880558">
+    <state width="619" height="212" key="GridCell.Tab.0.center/-1280.280.1280.800/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1608523526627" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1609101434365" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1609101434364">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="619" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1608480880558" />
-    <state width="619" height="212" key="GridCell.Tab.0.left" timestamp="1608480880557">
+    <state width="619" height="212" key="GridCell.Tab.0.left/-1280.280.1280.800/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1608523526623" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1609101434364" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1609101434366">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="619" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1608480880557" />
-    <state width="619" height="212" key="GridCell.Tab.0.right" timestamp="1608480880559">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="619" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1608480880559" />
-    <state x="461" y="330" key="NewPhpFileDialog" timestamp="1600281196975">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="461" y="330" key="NewPhpFileDialog/0.0.1280.800@0.0.1280.800" timestamp="1600281196975" />
+    <state width="619" height="212" key="GridCell.Tab.0.right/-1280.280.1280.800/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1608523526629" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1609101434366" />
     <state x="236" y="150" key="SettingsEditor" timestamp="1600867342652">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="236" y="150" key="SettingsEditor/-1280.280.1280.800/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1600867162313" />
     <state x="236" y="150" key="SettingsEditor/-1280.303.1280.777/0.0.1920.1080/1920.23.1920.1057@0.0.1920.1080" timestamp="1600867342652" />
-    <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1600262472593" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1599933994575">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1599933994575" />
     <state x="298" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602350158244">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -223,9 +226,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="232" y="125" width="816" height="550" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1608333822486" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1608323232153">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1609106709922">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1608323232153" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1609106709922" />
   </component>
 </project>

@@ -2,7 +2,6 @@ import {profileAPI, usersAPI} from "../api/api";
 import {toggleIsFollow, unFollow} from "./users-reducer";
 
 const ADD_POST = 'ADD-POST';
-const CHANGE_POST_TEXT = 'CHANGE-TEXT-POST';
 const SET_USER_PROFILE = 'SET_USER_PROFILE';
 const SET_STATUS = 'SET_STATUS';
 
@@ -40,7 +39,6 @@ const profileReducer = (state = initialState, action) => {
 }
 
 export const addPostActionCreator = (newPostBody) => ({ type: ADD_POST, newPostBody })
-export const changeTextActionCreator = (text) => ({ type: CHANGE_POST_TEXT, postMessage: text });
 export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile})
 export const setStatus = (status) => ({type: SET_STATUS, status})
 

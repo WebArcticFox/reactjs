@@ -60,10 +60,18 @@ export const goLogin = (data) => (dispatch) => {
     dispatch(toggleIsFetching(true));
     authAPI.login(data).then(response => {
         if(response.data.resultCode === 0) {
-            this.getAuth()
+            dispatch(getAuth())
         }
     })
+}
 
+export const logout = () => (dispatch) => {
+    dispatch(toggleIsFetching(true));
+    authAPI.logout().then(response => {
+        if(response.data.resultCode === 0) {
+            dispatch(getAuth())
+        }
+    })
 }
 
 export default authReducer;

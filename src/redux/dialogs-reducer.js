@@ -1,5 +1,4 @@
 const ADD_MESSAGE = 'ADD-MESSAGE';
-const CHANGE_TEXT_MESSAGE = 'CHANGE-TEXT-MESSAGE';
 
 let initialState = {
     dialogs: [

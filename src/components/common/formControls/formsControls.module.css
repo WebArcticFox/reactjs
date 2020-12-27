@@ -1,0 +1,12 @@
+.formControl {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formControl textarea, .formControl inpit {
+    box-sizing: border-box;
+}
+
+.formControl.error textarea, .formControl.error input{
+    border: 1px solid red;
+}
